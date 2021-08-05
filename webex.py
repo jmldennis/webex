@@ -1,7 +1,6 @@
 import requests
 import json
-import pdb
-from threading import Thread
+
 
 #https://developer.webex.com/docs/api/getting-started
 bearer_token = "put access token here"
