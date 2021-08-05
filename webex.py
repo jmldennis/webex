@@ -7,8 +7,6 @@ bearer_token = "put access token here"
 room_id = "put room id here"
 
 
-
-
 def post(msg):
     url = "https://webexapis.com/v1/messages"
 
@@ -24,7 +22,6 @@ def post(msg):
     response = requests.post(url, headers=headers, data=data)
 
     return response.json()
-
 
 
 def get():
